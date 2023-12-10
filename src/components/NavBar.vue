@@ -25,6 +25,7 @@ nav {
 nav>a {
     display: flex;
     align-items: center;
+    color: #fff;
 }
 
 span {
