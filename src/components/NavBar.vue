@@ -1,38 +1,43 @@
 <template>
     <nav>
-        <div>
+        <a href="/">
 
             <img src="../assets/clean.webp" alt="">
-            <span>هَانِي كلِين
-</span>
-        </div>
+            <span>هَانِي كلِين</span>
+        </a>
 
     </nav>
 </template>
 
 
 <style scoped>
-nav{
+nav {
     background-color: var(--dark-blue-logo);
-    padding: 8px 3rem;
+    padding: 10px 3rem;
     display: flex;
     font-family: 'Tajawal', sans-serif;
     align-items: center;
     color: #fff;
+    position: sticky;
+    top: 0;
 }
 
-nav>div{
+nav>a {
     display: flex;
     align-items: center;
+    color: #fff;
 }
-span{
+
+span {
     font-size: 20px;
     font-weight: 700;
     margin: 0 5px;
+    margin: 0 16px;
 }
-img{
+
+img {
     width: 30px;
-    border-radius: 50%; 
+    border-radius: 50%;
     box-shadow: 0 0 0 2px var(--yellow-logo);
 }
 </style>

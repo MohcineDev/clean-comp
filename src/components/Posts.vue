@@ -1,5 +1,8 @@
 <template>
-  <InPost/>
+  <section>
+
+    <InPost/>
+  </section>
 </template>
 
 
@@ -9,4 +12,9 @@ import InPost from '../components/InPost.vue'
 
 </script>
 
-<style scoped></style>
+<style scoped>
+
+section{
+  background-color: crimson;
+}
+</style>

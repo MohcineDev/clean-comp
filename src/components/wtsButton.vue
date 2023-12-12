@@ -4,7 +4,7 @@
             fill="#000000">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-            <g id="SVGRepo_iconCarrier">   
+            <g id="SVGRepo_iconCarrier">
                 <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="Color-" transform="translate(-700.000000, -360.000000)" fill="#67C15E">
                         <path
@@ -12,13 +12,29 @@
                             id="Whatsapp"> </path>
                     </g>
                 </g>
-        </g>
-    </svg>
-    <span>
-        07 01 20 68 92
-    </span>
-</a></template>
+            </g>
+        </svg>
+        <span> &nbsp;&nbsp;&nbsp;
+            07 01 20 68 92
+        </span>
+    </a>
+</template>
 
-<style scoped>svg {
+<style scoped>
+
+a{
+    border: 2px solid #78BE21;
+    background-color: #fff;
+    color: #181823;
+    direction: ltr;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 9px;
+    font-weight: 800;
+    margin: 1rem  0;
+}
+svg {
     width: 30px;
 }</style>
