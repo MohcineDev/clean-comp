@@ -44,7 +44,6 @@ header {
     height: 100%;
     width: 100%;
 }
- 
 
 .main {
     display: flex;
