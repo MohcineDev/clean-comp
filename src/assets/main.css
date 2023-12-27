@@ -1,17 +1,35 @@
-@import './base.css'; 
+@import './base.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap');
-#app {
-   
+
+#app {}
+
+a {
+  text-decoration: none;
+  color: #d8d3d3;
 }
 
-a{
-  text-decoration: none; 
+
+section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 0;
 }
 
-@media (hover: hover) {
- 
+.title {
+  margin: 2rem 0;
+  text-align: center;
 }
 
-@media (min-width: 1024px) {
-  
+.title span {
+  padding: 1rem 0;
+  border-bottom: 2px solid #000;
+
 }
+
+section p, li {
+  font-size: 1.5rem;
+}
+
+@media (hover: hover) {}
+
+@media (min-width: 1024px) {}

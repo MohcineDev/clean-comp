@@ -14,7 +14,6 @@ import InPost from '../components/InPost.vue'
 
 <style scoped>
 
-section{
-  background-color: crimson;
+section{ 
 }
 </style>
