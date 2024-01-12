@@ -3,6 +3,10 @@
         <div class="bg">
 
             <nav-bar />
+<div class="avatar">
+
+    <img src="../assets/cleaning-removebg-preview.png" alt="">
+</div>
             <div class="main">
 
                 <h1>مرحباً بك في شركة <span>هَانِي كلِين</span> للتنظيف</h1>
@@ -23,21 +27,22 @@ import wtsButton from './wtsButton.vue';
 
 <style scoped>
 header {
-    background-size: cover;
+    background: rgb(177,227,235);
+background: linear-gradient(313deg, rgba(177,227,235,1) 0%, rgba(51,110,189,1) 100%);
     height: 100vh; 
-    color: #fff;
+    color: black;
     font-family: 'Tajawal', sans-serif;
     position: relative;
-    background:rgb(8 50 105 / 56%); 
-    background-image: url('../assets/cover.png');
+    /* background:rgb(8 50 105 / 56%);  */
+    /* background-image: url('../assets/cover.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 }
-
+ 
 .bg { 
     position: absolute;
-    background: rgb(7 50 107 / 69%); 
+    /* background: rgb(7 50 107 / 69%);  */
     top: 0;
     left: 0;
     height: 100%;
