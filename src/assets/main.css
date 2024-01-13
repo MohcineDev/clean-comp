@@ -11,9 +11,7 @@ a {
 
 
 section:not(section.location) {
-  max-width: 1200px;
-  margin: auto;
-  padding: 2rem 0;
+  max-width: 1200px;  
 }
 
 .title {
@@ -26,10 +24,7 @@ section:not(section.location) {
   border-bottom: 2px solid #000;
 
 }
-
-section p, li {
-  font-size: 1.5rem;
-}
+ 
 
 @media (hover: hover) {}
 
