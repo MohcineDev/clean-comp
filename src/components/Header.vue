@@ -1,12 +1,11 @@
 <template>
     <header>
-        <div class="bg">
+        <nav-bar />
+        <div>
+            <div class="avatar">
 
-            <nav-bar />
-<div class="avatar">
-
-    <img src="../assets/cleaning-removebg-preview.png" alt="">
-</div>
+                <img src="../assets/cleaning-removebg-preview.png" alt="">
+            </div>
             <div class="main">
 
                 <h1>مرحباً بك في شركة <span>هَانِي كلِين</span> للتنظيف</h1>
@@ -27,9 +26,9 @@ import wtsButton from './wtsButton.vue';
 
 <style scoped>
 header {
-    background: rgb(177,227,235);
-background: linear-gradient(313deg, rgba(177,227,235,1) 0%, rgba(51,110,189,1) 100%);
-    height: 100vh; 
+    background: rgb(177, 227, 235);
+    background: linear-gradient(313deg, rgba(177, 227, 235, 1) 0%, rgba(51, 110, 189, 1) 100%);
+    height: 100vh;
     color: black;
     font-family: 'Tajawal', sans-serif;
     position: relative;
@@ -39,15 +38,7 @@ background: linear-gradient(313deg, rgba(177,227,235,1) 0%, rgba(51,110,189,1) 1
     background-size: cover;
     background-position: top;
 }
- 
-.bg { 
-    position: absolute;
-    /* background: rgb(7 50 107 / 69%);  */
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
+
 
 .main {
     display: flex;
@@ -58,9 +49,11 @@ background: linear-gradient(313deg, rgba(177,227,235,1) 0%, rgba(51,110,189,1) 1
     height: 50vh;
 
 }
-h1{
+
+h1 {
     margin: 15px;
 }
+
 h1,
 p,
 span {
@@ -73,5 +66,4 @@ h1 span {
     padding: 0 5px;
     border-radius: 8px;
     color: var(--dark-blue-logo);
-}
-</style>
+}</style>
